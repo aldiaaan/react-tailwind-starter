@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: "static/js/[name].js",
     chunkFilename: "static/js/[name].chunk.js",
-    assetModuleFilename: "static/media/[hash][query][ext]",
+    assetModuleFilename: "static/media/[hash][ext]",
     path: path.join(__dirname, "dist"),
     publicPath: "/",
   },

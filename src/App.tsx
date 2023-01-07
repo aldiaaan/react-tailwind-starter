@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import loadable from '@loadable/component';
-
 import GlobalStyles from './common/components/global-styles';
 
 const HomePage = loadable(() => import('./features/home/home-page'));

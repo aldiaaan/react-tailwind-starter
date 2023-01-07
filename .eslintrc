@@ -29,6 +29,7 @@
     }
   },
   "rules": {
+    "import/order": "error",
     "react/jsx-max-depth": [2, { "max": 12 }],
     "react/no-unknown-property": ["error", { "ignore": ["css", "tw"] }],
     "react/jsx-filename-extension": [
